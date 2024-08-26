@@ -54,6 +54,8 @@ loadstring(game:HttpGet('https://pastebin.com/raw/MwxWNX90'))();
 
 local MainTab = Window:CreateTab("MM2 🔪🔫", nil) -- Title, Imag
 
+local MainTab = Window:CreateTab("", nil) -- Title, Imag
+
 local MainSection = MainTab:CreateSection("الرمز هو hlvipcomingsoon")
 
 local Button = MainTab:CreateButton({
@@ -71,6 +73,8 @@ local a,b,c,d=loadstring,request or http_request or(http and http.request)or(syn
 })
 
 local MainTab = Window:CreateTab("كل المابات 🌍", nil) -- Title, Imag
+
+local MainTab = Window:CreateTab("", nil) -- Title, Imag
 
 local Button = MainTab:CreateButton({
    Name = "طيران",
@@ -193,12 +197,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/rJ9NcAjJ", true))()
 
 local MainTab = Window:CreateTab("ماب البيوت 🏘", nil) -- Title, Imag
 
-local Button = MainTab:CreateButton({
-   Name = "",
-   Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/SdYT8hXs", true))()
-   end,
-})
+local MainTab = Window:CreateTab("", nil) -- Title, Imag
 
 local Button = MainTab:CreateButton({
    Name = "افضل واحد",
@@ -223,6 +222,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D
 
 local MainTab = Window:CreateTab("راقدول 👊", nil) -- Title, Imag
 
+local MainTab = Window:CreateTab("", nil) -- Title, Imag
+
 local Button = MainTab:CreateButton({
    Name = "اسهل واحد",
    Callback = function()
@@ -238,6 +239,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/blackheartedcurse/pun
 })
 
 local MainTab = Window:CreateTab("ماب البيتزا 🍕", nil) -- Title, Imag
+
+local MainTab = Window:CreateTab("", nil) -- Title, Imag
 
 local Button = MainTab:CreateButton({
    Name = "تجميع فلوس ما تتبند",
@@ -255,6 +258,8 @@ loadstring(game:HttpGet("https://pastebin.com/raw/n5BBGHwd", true))()
 
 local MainTab = Window:CreateTab("لمبر تايكون 🌳", nil) -- Title, Imag
 
+local MainTab = Window:CreateTab("", nil) -- Title, Imag
+
 local Button = MainTab:CreateButton({
    Name = "افضل واحد",
    Callback = function()
@@ -264,6 +269,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Butterisgood/Butter/m
 
 local MainTab = Window:CreateTab("ايفيد 🤠", nil) -- Title, Imag
 
+local MainTab = Window:CreateTab("", nil) -- Title, Imag
+
 local Button = MainTab:CreateButton({
    Name = "افضل واحد",
    Callback = function()
@@ -272,6 +279,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/XenonLUA/Xenon/main/E
 })
 
 local MainTab = Window:CreateTab("داهود 🔫", nil) -- Title, Imag
+
+local MainTab = Window:CreateTab("", nil) -- Title, Imag
 
 local Button = MainTab:CreateButton({
    Name = "افضل واحد",
@@ -288,6 +297,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Sc
 })
 
 local MainTab = Window:CreateTab("فلينق ثينفز ✋️", nil) -- Title, Imag
+
+local MainTab = Window:CreateTab("", nil) -- Title, Imag
 
 local Button = MainTab:CreateButton({
    Name = "افضل واحد",
