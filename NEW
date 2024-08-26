@@ -46,7 +46,7 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "اغلاق الهاك",
+   Name = "❌️ اغلاق الهاك ❌️",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/MwxWNX90'))();
    end,
