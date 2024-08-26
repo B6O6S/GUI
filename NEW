@@ -29,16 +29,11 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("الرئيسية 🏠", nil) -- Title, Image
 
 local MainSection = MainTab:CreateSection("التحديثات")
-local MainSection = MainTab:CreateSection("2 Aug - 2024")
-local MainSection = MainTab:CreateSection("الهاك بالكامل 🗂")
-local MainSection = MainTab:CreateSection("[+] تم إصلاح الهاك يشتغل من نفسه بعد ما ترسبن ")
-local MainSection = MainTab:CreateSection("[+] تم تسريع الهاك عند التشغيل")
-local MainSection = MainTab:CreateSection("[+] تم تحسين الفريمات عند تشغيل الهاك")
-local MainSection = MainTab:CreateSection("[-] تم إزالة تعليق الهاك عند التشغيل")
+local MainSection = MainTab:CreateSection("تم تغيير شكل الهاك [+]")
 Rayfield:Notify({
    Title = " منور يا حب ❤️",
    Content = "✅️ انت تمتلك النسخه الامنه ✅️",
-   Duration = 5,
+   Duration = 2,
    Image = 13047715178,
    Actions = { -- Notification Buttons
       Ignore = {
@@ -80,7 +75,7 @@ local MainTab = Window:CreateTab("كل المابات 🌍", nil) -- Title, Imag
 local Button = MainTab:CreateButton({
    Name = "طيران",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt", true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ptctREWZ", true))()
    end,
 })
 
@@ -123,5 +118,180 @@ local Button = MainTab:CreateButton({
    Name = "ما يطلعك من القيم",
    Callback = function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Anti-Afk-Remastered-Script-or-Diffrent-Cool-UI-2097", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "فلنق",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "الدخول في الجدار",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/t6xDxMid", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "كيبورد",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "انبطاح",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_vZDX8j5ggfAf58QhdJ59BVEmF6nmZgq4Mcjt2l8wn16CiStIW2P6EkNc605qv9K4.lua.txt", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "مترجم شات",
+   Callback = function()
+loadstring(game:HttpGet("https://i.qts.life/r/ChatInlineTranslator.lua", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ايمبوت",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20Aimbot.lua", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "تسلق جدران",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_E872F3ky4888TSVdj6Adgi1hSLtM038AyxVpTVw07QA3QUDcI3sxmuD869hYR4id.lua.txt", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "لاق كذبي",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/VM3b0Thg", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "تشيل الأشياء",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/GQ8FQqA2", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "شات ملون",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/rJ9NcAjJ", true))()
+   end,
+})
+
+local MainTab = Window:CreateTab("ماب البيوت 🏘", nil) -- Title, Imag
+
+local Button = MainTab:CreateButton({
+   Name = "",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/SdYT8hXs", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "افضل واحد",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.5/main/SanderXV2.5.lua", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ضد الاعبين",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "طقطقه",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script", true))()
+   end,
+})
+
+local MainTab = Window:CreateTab("راقدول 👊", nil) -- Title, Imag
+
+local Button = MainTab:CreateButton({
+   Name = "اسهل واحد",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "افضل واحد",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/blackheartedcurse/punkz-Scripts/main/punkzOG.lua", true))()
+   end,
+})
+
+local MainTab = Window:CreateTab("ماب البيتزا 🍕", nil) -- Title, Imag
+
+local Button = MainTab:CreateButton({
+   Name = "تجميع فلوس ما تتبند",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/cEwtwKZR", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "تجميع فلوس تتبند",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/n5BBGHwd", true))()
+   end,
+})
+
+local MainTab = Window:CreateTab("لمبر تايكون 🌳", nil) -- Title, Imag
+
+local Button = MainTab:CreateButton({
+   Name = "افضل واحد",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua", true))()
+   end,
+})
+
+local MainTab = Window:CreateTab("ايفيد 🤠", nil) -- Title, Imag
+
+local Button = MainTab:CreateButton({
+   Name = "افضل واحد",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XenonLUA/Xenon/main/Evade.lua", true))()
+   end,
+})
+
+local MainTab = Window:CreateTab("داهود 🔫", nil) -- Title, Imag
+
+local Button = MainTab:CreateButton({
+   Name = "افضل واحد",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/I4MMO/Detazy/main/Main", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ايم لوك",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Rainbow%20Sun%20Aimlock.lua", true))()
+   end,
+})
+
+local MainTab = Window:CreateTab("فلينق ثينفز ✋️", nil) -- Title, Imag
+
+local Button = MainTab:CreateButton({
+   Name = "افضل واحد",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua", true))()
    end,
 })
