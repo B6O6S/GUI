@@ -29,7 +29,7 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("الرئيسية 🏠", nil) -- Title, Image
 
 local MainSection = MainTab:CreateSection("التحديثات")
-local MainSection = MainTab:CreateSection("تم تغيير شكل الهاك [+]")
+local MainSection = MainTab:CreateSection("[➕️] تم تغيير شكل الهاك")
 Rayfield:Notify({
    Title = " منور يا حب ❤️",
    Content = "✅️ انت تمتلك النسخه الامنه ✅️",
