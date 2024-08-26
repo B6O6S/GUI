@@ -1,0 +1,127 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/B6O6S/CHANGE-GUI-COLOR/main/Test'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "👑 ولكم باك النسخة المطورة 👑 ",
+   LoadingTitle = "😏 مرحبا بك في هاك بطوطس 😎",
+   LoadingSubtitle = "by B6O6S",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Example Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "تم حظرك",
+      Subtitle = "تواصل مع B6O6S#8348 وقم بالدفع للحصول على مفتاح الغاء الحظر",
+      Note = " لقد قمت بكسر قوانين الهاك ",
+      FileName = "YoutubeHubKey1", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"https://pastebin.com/raw/BVzBD7rX"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("الرئيسية 🏠", nil) -- Title, Image
+
+local MainSection = MainTab:CreateSection("التحديثات")
+local MainSection = MainTab:CreateSection("2 Aug - 2024")
+local MainSection = MainTab:CreateSection("الهاك بالكامل 🗂")
+local MainSection = MainTab:CreateSection("[+] تم إصلاح الهاك يشتغل من نفسه بعد ما ترسبن ")
+local MainSection = MainTab:CreateSection("[+] تم تسريع الهاك عند التشغيل")
+local MainSection = MainTab:CreateSection("[+] تم تحسين الفريمات عند تشغيل الهاك")
+local MainSection = MainTab:CreateSection("[-] تم إزالة تعليق الهاك عند التشغيل")
+Rayfield:Notify({
+   Title = " منور يا حب ❤️",
+   Content = "✅️ انت تمتلك النسخه الامنه ✅️",
+   Duration = 5,
+   Image = 13047715178,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "شكراً",
+         Callback = function()
+         print("لا تسوي ذكي عشان تسرق معلومات الهاك 🤓☝️")
+      end
+   },
+},
+})
+
+local Button = MainTab:CreateButton({
+   Name = "اغلاق الهاك",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MwxWNX90'))();
+   end,
+})
+
+local MainTab = Window:CreateTab("MM2 🔪🔫", nil) -- Title, Imag
+
+local MainSection = MainTab:CreateSection("الرمز هو hlvipcomingsoon")
+
+local Button = MainTab:CreateButton({
+   Name = "Highlight Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main'))();
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Symphony Hub",
+   Callback = function()
+local a,b,c,d=loadstring,request or http_request or(http and http.request)or(syn and syn.request),assert,"https://lhr.synteamenv.workers.dev/?page=script"c(a and b,"Your executor does not support.")a(b({Url=d,Method="POST",Headers={["Authorization"]="revamp patch 2024"}}).Body)()
+   end,
+})
+
+local MainTab = Window:CreateTab("كل المابات 🌍", nil) -- Title, Imag
+
+local Button = MainTab:CreateButton({
+   Name = "طيران",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ادمن",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "RTX",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/xXkUxA0P/raw", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "رقصات",
+   Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "مشيات",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "بدون لاق",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/y5reZYnG", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ما يطلعك من القيم",
+   Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Anti-Afk-Remastered-Script-or-Diffrent-Cool-UI-2097", true))()
+   end,
+})
