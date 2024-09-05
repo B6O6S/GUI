@@ -46,6 +46,13 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "🔁 اظهار زر تغشيل الهاك واغلاقه 🔁",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/UiS3SMPt'))();
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "❌️ اغلاق الهاك ❌️",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/MwxWNX90'))();
