@@ -29,8 +29,9 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("الرئيسية 🏠", nil) -- Title, Image
 
 local MainSection = MainTab:CreateSection("التحديثات")
-local MainSection = MainTab:CreateSection("قريبا....🤙")
-Rayfield:Notify({
+local MainSection = MainTab:CreateSection("🌍 كل المابات 🌍")
+local MainSection = MainTab:CreateSection("تم اضافه الرسم في الشات [➕️]")
+local MainSection = MainTab:CreateSection("تم إضافة بدون هاشتاق انجليزي فقط [➕️]")
    Title = " منور يا حب ❤️",
    Content = "✅️ انت تمتلك النسخه الامنه ✅️",
    Duration = 2,
@@ -44,9 +45,6 @@ Rayfield:Notify({
    },
 },
 })
-local MainSection = MainTab:CreateSection("التحديثات")
-local MainSection = MainTab:CreateSection("🌍 كل المابات 🌍")
-local MainSection = MainTab:CreateSection("تم اضافه الرسم في الشات")
 local Button = MainTab:CreateButton({
    Name = "🔁 اظهار زر تغشيل الهاك واغلاقه 🔁",
    Callback = function()
@@ -208,6 +206,13 @@ local Button = MainTab:CreateButton({
    Name = "رسم في الشات",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/balditeacher/obfuscated-mobile-supportloadstring/main/obfuscated", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "بدون هاشتاق",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Clickgameplay/no-tag-script/main/.NoTagScript"))()", true))()
    end,
 })
 
