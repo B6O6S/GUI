@@ -210,7 +210,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/balditeacher/obfuscat
 local Button = MainTab:CreateButton({
    Name = "بدون هاشتاق",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Clickgameplay/no-tag-script/main/.NoTagScript"))()", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Clickgameplay/no-tag-script/main/.NoTagScript", true))()
    end,
 })
 
