@@ -44,7 +44,9 @@ Rayfield:Notify({
    },
 },
 })
-
+local MainSection = MainTab:CreateSection("التحديثات")
+local MainSection = MainTab:CreateSection("🌍 كل المابات 🌍")
+local MainSection = MainTab:CreateSection("تم اضافه الرسم في الشات")
 local Button = MainTab:CreateButton({
    Name = "🔁 اظهار زر تغشيل الهاك واغلاقه 🔁",
    Callback = function()
@@ -199,6 +201,13 @@ local Button = MainTab:CreateButton({
    Name = "شات ملون",
    Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/rJ9NcAjJ", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "رسم في الشات",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/balditeacher/obfuscated-mobile-supportloadstring/main/obfuscated", true))()
    end,
 })
 
