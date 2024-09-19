@@ -35,7 +35,7 @@ local MainSection = MainTab:CreateSection("[➕️] تم إضافة المشي �
 
 Rayfield:Notify({
    Title = " منور يا حب ❤️",
-   Content = "✅️ انت تمتلك النسخه الامنه ✅️",
+   Content = "👑 انت تمتلك النسخه الاسطورية 👑",
    Duration = 2,
    Image = 13047715178,
    Actions = { -- Notification Buttons
