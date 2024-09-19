@@ -82,6 +82,13 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/ArrayField/m
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "مترجم",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2'))();
+   end,
+})
+
 local MainTab = Window:CreateTab("كل المابات 🌍", nil) -- Title, Imag
 
 local MainSection = MainTab:CreateSection("")
