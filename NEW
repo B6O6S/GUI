@@ -29,9 +29,8 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("الرئيسية 🏠", nil) -- Title, Image
 
 local MainSection = MainTab:CreateSection("التحديثات")
-local MainSection = MainTab:CreateSection("🌍 كل المابات 🌍")
-local MainSection = MainTab:CreateSection("[➕️] تم اضافه الرسم في الشات")
-local MainSection = MainTab:CreateSection("[➕️] تم إضافة المشي عل الجدار")
+local MainSection = MainTab:CreateSection("MM2 🔪🔫")
+local MainSection = local MainSection = MainTab:CreateSection("[➕️] تم إضافة هاك مترجم")
 
 Rayfield:Notify({
    Title = " منور يا حب ❤️",
@@ -61,6 +60,7 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet('https://pastebin.com/raw/MwxWNX90'))();
    end,
 })
+local MainSection = MainTab:CreateSection("")
 
 local MainTab = Window:CreateTab("MM2 🔪🔫", nil) -- Title, Imag
 
