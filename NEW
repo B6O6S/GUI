@@ -61,8 +61,6 @@ loadstring(game:HttpGet('https://pastebin.com/raw/MwxWNX90'))();
    end,
 })
 
-local MainSection = MainTab:CreateSection("")
-
 local MainTab = Window:CreateTab("MM2 🔪🔫", nil) -- Title, Imag
 
 local MainSection = MainTab:CreateSection("")
