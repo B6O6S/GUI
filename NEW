@@ -256,7 +256,7 @@ local MainSection = MainTab:CreateSection("")
 local Button = MainTab:CreateButton({
    Name = "اسهل واحد",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/B6O6S/B6O6S-BROKEN/refs/heads/main/SYSTEM", true))()
    end,
 })
 
