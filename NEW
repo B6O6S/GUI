@@ -148,7 +148,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wp
 })
 
 local Button = MainTab:CreateButton({
-   Name = "الدخول في الجدار",
+   Name = "اختراق الجدران",
    Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/t6xDxMid", true))()
    end,
