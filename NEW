@@ -87,6 +87,20 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Au0yX/Community/main/
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "overdrive-H",
+   Callback = function()
+loadstring(game:HttpGet("https://overdrive-h.ohd.workers.dev/?d=loader"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "تجميع حلويات",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ItsJiDy/Personal-Script/refs/heads/main/mm2%20halloween.lua'))()
+   end,
+})
+
 local MainTab = Window:CreateTab("كل المابات 🌍", nil) -- Title, Imag
 
 local MainSection = MainTab:CreateSection("")
