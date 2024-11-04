@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/B6O6S/CHANGE-GUI-COLOR/main/Test'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "⭐️ الهاك المطور ⭐️ ",
@@ -34,7 +34,7 @@ local MainSection = MainTab:CreateSection("[➕️] تم إضافة هاك اخ�
 Rayfield:Notify({
    Title = " منور يا حب ❤️",
    Content = "👑 انت تمتلك النسخه الاسطورية 👑",
-   Duration = 2,
+   Duration = 5,
    Image = 13047715178,
    Actions = { -- Notification Buttons
       Ignore = {
