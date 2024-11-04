@@ -34,7 +34,7 @@ local MainSection = MainTab:CreateSection("[➕️] تم إضافة هاك اخ�
 Rayfield:Notify({
    Title = " منور يا حب ❤️",
    Content = "👑 انت تمتلك النسخه الاسطورية 👑",
-   Duration = 5,
+   Duration = 0,
    Image = 13047715178,
    Actions = { -- Notification Buttons
       Ignore = {
