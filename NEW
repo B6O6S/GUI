@@ -29,7 +29,7 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("الرئيسية 🏠", nil) -- Title, Image
 
 local MainSection = MainTab:CreateSection("التحديثات")
-local MainSection = MainTab:CreateSection("الرئيسية")
+local MainSection = MainTab:CreateSection("الرئيسية 🏠")
 local MainSection = MainTab:CreateSection("[➕️] تم اضافه العوده الى الصفحة الرئيسية")
 Rayfield:Notify({
    Title = " منور يا حب ❤️",
