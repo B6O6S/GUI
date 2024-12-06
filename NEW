@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/B6O6S/CHANGE-GUI-COLOR/refs/heads/main/Test'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "⭐️ الهاك المطور ⭐️ ",
@@ -7,7 +7,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "B6O6S Hub"
+      FileName = "B6O6S HUB"
    },
    Discord = {
       Enabled = false,
@@ -29,8 +29,8 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("الرئيسية 🏠", nil) -- Title, Image
 
 local MainSection = MainTab:CreateSection("التحديثات")
-local MainSection = MainTab:CreateSection("🌍 كل المابات 🌍")
-local MainSection = MainTab:CreateSection("[➕️] تم إضافة هاك اختفاء")
+local MainSection = MainTab:CreateSection("الرئيسية")
+local MainSection = MainTab:CreateSection("[➕️] تم اضافه العوده الى الصفحة الرئيسية")
 Rayfield:Notify({
    Title = " منور يا حب ❤️",
    Content = "👑 انت تمتلك النسخه الاسطورية 👑",
@@ -47,9 +47,9 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "🔁 اظهار زر تغشيل الهاك واغلاقه 🔁",
+   Name = "🔄 العودة الى الصفحة الرئيسية 🔄",
    Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/UiS3SMPt'))();
+loadstring(game:HttpGet('https://pastebin.com/raw/uskvhF1s'))();
    end,
 })
 
