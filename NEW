@@ -244,6 +244,16 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet("https://pastebin.com/raw/3Rnd9rHf", true))()
    end,
 })
+local MainTab = Window:CreateTab(" قرينفل 🚘", nil) -- Title, Imag
+
+local MainSection = MainTab:CreateSection("")
+
+local Button = MainTab:CreateButton({
+   Name = "تجميع فلوس",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8643/test/main/green"))()
+   end,
+})
 
 local MainTab = Window:CreateTab("ماب البيوت 🏘", nil) -- Title, Imag
 
