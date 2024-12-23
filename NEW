@@ -90,14 +90,14 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Au0yX/Community/main/
 local Button = MainTab:CreateButton({
    Name = "overdrive-H",
    Callback = function()
-loadstring(game:HttpGet("https://overdrive-h.ohd.workers.dev/?d=loader"))()
+loadstring(game:HttpGet("https://overdrivehub.odh.workers.dev/?d=auth&script=full"))()
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "تجميع حلويات",
+   Name = "تجميع توكن",
    Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ItsJiDy/Personal-Script/refs/heads/main/mm2%20halloween.lua'))()
+loadstring(game:HttpGet("https://overdrivehub.odh.workers.dev/?d=auth&script=mm2_lite"))()
    end,
 })
 
