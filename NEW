@@ -91,14 +91,14 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Au0yX/Community/main/
 local Button = MainTab:CreateButton({
    Name = "overdrive-H",
    Callback = function()
-loadstring(game:HttpGet("https://overdrivehub.odh.workers.dev/?d=auth&script=full"))()
+loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
    end,
 })
 
 local Button = MainTab:CreateButton({
    Name = "تجميع توكن",
    Callback = function()
-loadstring(game:HttpGet("https://overdrivehub.odh.workers.dev/?d=auth&script=mm2_lite"))()
+loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=mm2_lite"))()
    end,
 })
 
