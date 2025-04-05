@@ -262,7 +262,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/QCsk6mGW", true))()
    end,
 })
 
-local MainTab = Window:CreateTab(" Greenville 🚘", nil) -- Title, Imag
+local MainTab = Window:CreateTab("Greenville 🚘", nil) -- Title, Imag
 
 local MainSection = MainTab:CreateSection("")
 local MainSection = MainTab:CreateSection("معلومة: يمكن يعلق عليك اول ما تفعل بدون لاق بس انتظر شويات ويشتغل")
@@ -361,7 +361,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Butterisgood/Butter/m
    end,
 })
 
-local MainTab = Window:CreateTab("evade 🤠", nil) -- Title, Imag
+local MainTab = Window:CreateTab("Evade 🤠", nil) -- Title, Imag
 
 local MainSection = MainTab:CreateSection("")
 
@@ -390,7 +390,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Sc
    end,
 })
 
-local MainTab = Window:CreateTab("Fling thing sand people ✋️", nil) -- Title, Imag
+local MainTab = Window:CreateTab("Fling things and people ✋️", nil) -- Title, Imag
 
 local MainSection = MainTab:CreateSection("")
 
