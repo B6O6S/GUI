@@ -265,6 +265,8 @@ loadstring(game:HttpGet("https://pastebin.com/raw/QCsk6mGW", true))()
 local MainTab = Window:CreateTab(" Greenville 🚘", nil) -- Title, Imag
 
 local MainSection = MainTab:CreateSection("")
+local MainSection = MainTab:CreateSection("معلومة: يمكن يعلق عليك اول ما تفعل بدون لاق بس انتظر شويات ويشتغل")
+local MainSection = MainTab:CreateSection("نصيحه: وانت تجمع طالع على تحت عشان يقل التعليق وما يكرش")
 
 local Button = MainTab:CreateButton({
    Name = "تجميع فلوس",
@@ -286,9 +288,6 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8643/test/main/green"))()
    end,
 })
-
-local MainSection = MainTab:CreateSection("معلومة: يمكن يعلق عليك اول ما تفعل بدون لاق بس انتظر شويات ويشتغل")
-local MainSection = MainTab:CreateSection("نصيحه: وانت تجمع طالع على تحت عشان يقل التعليق وما يكرش")
 
 local MainTab = Window:CreateTab("Brookhaven 🏘", nil) -- Title, Imag
 
