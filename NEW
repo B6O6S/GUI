@@ -274,16 +274,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8643/test/main/g
 })
 
 local Button = MainTab:CreateButton({
-   Name = "بدون لاق ) فعله قبل ما تدخل الوظيفة )",
+   Name = "( بدون لاق ) فعله قبل ما تدخل الوظيفة ",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/1Softworks/RBX-Client-Optimizer/refs/heads/main/file.lua"))()
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "بدون لاق ) فعله اول ما تبدأ تجمع )",
+   Name = "( بدون لاق ) فعله اول ما تبدأ تجمع",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8643/test/main/green"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/42J9cNF7"))()
    end,
 })
 
