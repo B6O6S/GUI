@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "⭐️ الهاك المطور ⭐️ ",
    LoadingTitle = "😏 مرحبا بك في هاك بطوطس 😎",
-   LoadingSubtitle = "by B6O6S#8348",
+   LoadingSubtitle = "by B6O6S",
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
@@ -125,7 +125,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 local Button = MainTab:CreateButton({
    Name = "RTX",
    Callback = function()
-loadstring(game:HttpGet("https://pastefy.app/xXkUxA0P/raw", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua", true))()
    end,
 })
 
