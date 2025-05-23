@@ -417,3 +417,12 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SnoobG/Lua-Script-s/refs/heads/main/Tvon", true))()
    end,
 })
+
+local MainTab = Window:CreateTab("Dead rails 🧟‍♂️", nil)
+
+local Button = MainTab:CreateButton({
+   Name = "Deadrails",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SnoobG/Lua-Script-s/refs/heads/main/Tvon", true))()
+   end,
+})
