@@ -269,6 +269,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/ZT4ij28C", true))()
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "العاده +18",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/kL9AQWy8", true))()
+   end,
+})
+
 local MainTab = Window:CreateTab("Greenville 🚘", nil) -- Title, Imag
 
 local MainSection = MainTab:CreateSection("")
