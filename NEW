@@ -32,7 +32,9 @@ local MainSection = MainTab:CreateSection("التحديثات")
 local MainSection = MainTab:CreateSection("كل المابات 🌍")
 local MainSection = MainTab:CreateSection("[➕️] تم اضافه فك باند المايك")
 local MainSection = MainTab:CreateSection("معلومة مهمة: اذا اخذت باند مايك من زمان ما يمديك تفكه، لكن اذا اخذت باند مايك وفعلت الهاك وانت في نفس السيرفر راح ينفك معك ❤️")
-local MainSection = MainTab:CreateSection("[➕️] تم اضافه العاده R6 و R15 18+")
+local MainSection = MainTab:CreateSection("[➕️] تم اضافه العاده R6 و R15")
+local MainSection = MainTab:CreateSection("الهاك +18 لطقطقه بس يا ليت محد يستخدمه لأمور اخرى 😅")
+
 Rayfield:Notify({
    Title = " منور يا حب ❤️",
    Content = "👑 انت تمتلك النسخه الاسطورية 👑",
